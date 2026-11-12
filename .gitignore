@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+*.token
+# Slides: push only the PDF. The LaTeX source needs the shared template
+# (../../00_templates) and stays in the teaching folder, not in this repository.
+slides/*
+!slides/*.pdf
